@@ -32,15 +32,14 @@ function buildCharMap(str){
     }
     return charMap;
 }
-//** SOLUTION 2 */
 
-//** SOLUTION 3 */
-function anagrams3(stringA, stringB) {
+//** SOLUTION 2 */
+function anagrams2(stringA, stringB) {
     const cleaner = (str) => str.replace(/[^\w]/g, '').toLowerCase().split('').sort().join('')
     return cleaner(stringA) === cleaner(stringB)
 }
-//** SOLUTION 4 */
-function anagrams4(stringA, stringB) {
+//** SOLUTION 3 */
+function anagrams(stringA, stringB) {
     let cleanstringA = stringA.replace(/[^0-9a-zA-Z]/g, '').toLowerCase();
     let cleanstringB = stringB.replace(/[^0-9a-zA-Z]/g, '').toLowerCase();
     
