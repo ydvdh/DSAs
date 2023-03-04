@@ -5,4 +5,5 @@
 ### Data Structures
 - Arrays
 - Hash Tables
+- Queue
 - Linked Lists
