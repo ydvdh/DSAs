@@ -6,4 +6,5 @@
 - Arrays
 - Hash Tables
 - Queue
+- Stack
 - Linked Lists
