@@ -8,3 +8,5 @@
 - Queue
 - Stack
 - Linked Lists
+- Tree
+- Binary Search Tree
